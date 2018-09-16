@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/images/logo.png">
     <Navigation msg="navigation"></Navigation>
     <Home msg="home"></Home>
     <About msg="about"></About>
@@ -29,7 +29,7 @@ import Testimonials from './components/Testimonials.vue';
     Pricing,
     Footer,
     Navigation,
-    Testimonials
+    Testimonials,
   },
 })
 export default class App extends Vue {}
@@ -44,5 +44,7 @@ export default class App extends Vue {}
   color: #2c3e50;
   margin-top: 60px;
 }
-
-</style>
+@import 'src/assets/css/base.scss';
+@import 'src/assets/css/vendor.scss';
+@import 'src/assets/css/main.scss';
+</style> 
