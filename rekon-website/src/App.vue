@@ -7,6 +7,10 @@
     <Testimonials msg="Testimonials"></Testimonials>
     <Download msg="download"></Download>
     <Footer msg="about"></Footer>
+    
+    <div id="preloader" style="display: none;"> 
+      <div id="loader"></div>
+    </div>  
   </div>
 </template>
 
@@ -35,9 +39,6 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-#app {
-
-}
 @import 'src/assets/css/base.scss';
 @import 'src/assets/css/vendor.scss';
 @import 'src/assets/css/main.scss';

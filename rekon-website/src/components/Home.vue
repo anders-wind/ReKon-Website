@@ -16,11 +16,11 @@
 
                     <div class="buttons aos-init aos-animate" data-aos="fade-up">
                         <a href="#download" class="smoothscroll button stroke">
-                            <span class="icon-circle-down" aria-hidden="true"></span>
+                            <i class="fa fa-arrow-circle-down"></i>
                             Download App
                         </a>
                         <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a" data-lity="" class="button stroke">
-                            <span class="icon-play" aria-hidden="true"></span>
+                            <i class="fa fa-play"></i>
                             Watch Video
                         </a>
                     </div>                                         
