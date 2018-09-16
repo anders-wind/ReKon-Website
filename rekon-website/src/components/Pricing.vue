@@ -106,19 +106,20 @@ export default class Pricing extends Vue {
   clear: both;
 }
 .pricing-table .plan-block .plan-block-title {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   margin-bottom: 3.6rem;
 }
 .pricing-table .plan-block .plan-block-price {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 7.8rem;
   color: #151515;
   line-height: 1;
   margin-bottom: 0;
 }
 .pricing-table .plan-block .plan-block-price sup {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   top: -3.6rem;
   margin-right: 3px;
@@ -126,7 +127,8 @@ export default class Pricing extends Vue {
 .pricing-table .plan-block .plan-block-per {
   margin-top: -0.6rem;
   margin-bottom: 0;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 1.7rem;
 }
 .pricing-table .plan-block .plan-block-features {
@@ -142,7 +144,8 @@ export default class Pricing extends Vue {
 }
 .pricing-table .plan-block .plan-block-features li span {
   color: #39b54a;
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli", sans-serif;
+  font-weight: bold;
 }
 .pricing-table .plan-block.primary {
   background: #39b54a;

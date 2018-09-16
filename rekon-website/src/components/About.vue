@@ -195,7 +195,7 @@ export default class About extends Vue {
   font-size: 4.8rem;
 }
 .about-features .feature h3 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.9rem;
   color: #151515;
   margin-bottom: 3rem;
@@ -252,7 +252,8 @@ export default class About extends Vue {
 }
 .about-how-content .step::before {
   display: block;
-  font-family: "muli-bold";
+  font-family: "muli";
+  font-weight: bold;
   font-size: 2rem;
   content: attr(data-item);
   color: #ffffff;
@@ -304,7 +305,7 @@ export default class About extends Vue {
 }
 @media only screen and (max-width: 850px) {
   .about-how-content {
-    max-width: 550px;
+    max-width: 650px;
   }
   .about-how-content::after {
     display: none;

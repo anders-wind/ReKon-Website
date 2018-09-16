@@ -1,5 +1,5 @@
 FROM node:alpine as builder
-COPY ./site /app
+COPY ./rekon-website /app
 WORKDIR /app
 RUN npm install
 RUN npm run build

@@ -150,7 +150,7 @@ export default class Testimonials extends Vue {
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "muli-regular", sans-serif;
+  font-family: "muli", sans-serif;
   font-size: 3.2rem;
   line-height: 1.5;
   color: #303030;
@@ -158,7 +158,7 @@ export default class Testimonials extends Vue {
 #testimonial-slider p::before,
 #testimonial-slider p::after {
   display: inline-block;
-  font-family: "muli-regular", serif;
+  font-family: "muli", serif;
   font-size: 3.6rem;
   line-height: 1;
   position: relative;
@@ -184,7 +184,8 @@ export default class Testimonials extends Vue {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "montserrat-semibold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 1.9rem;
   margin-top: 0.9rem;
   margin-bottom: 3rem;
@@ -192,7 +193,8 @@ export default class Testimonials extends Vue {
 }
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli", sans-serif;
+  font-weight: bold;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -209,7 +211,7 @@ export default class Testimonials extends Vue {
 }
 #testimonial-slider .owl-nav [class*="owl-"] {
   color: #ffffff;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;

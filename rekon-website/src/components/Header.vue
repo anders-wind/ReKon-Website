@@ -88,7 +88,7 @@ export default class Header extends Vue {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -170,7 +170,8 @@ export default class Header extends Vue {
  * ------------------------------------------------------------------- */
 
 #header-nav-wrap {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 14px;
   position: absolute;
   top: 0;
@@ -213,7 +214,8 @@ export default class Header extends Vue {
   height: 3.6rem;
   line-height: calc(3.6rem - 0.6rem);
   padding: 0 1.5rem;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 14px;
   text-transform: none;
   letter-spacing: normal;

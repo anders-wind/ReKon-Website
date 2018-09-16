@@ -56,7 +56,7 @@ body {
 
 body {
   background: #141515;
-  font-family: "muli-regular", sans-serif;
+  font-family: "muli", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
   color: #767676;
@@ -97,7 +97,7 @@ h6,
 .h04,
 .h05,
 .h06 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -166,11 +166,12 @@ p img {
 }
 
 p.lead {
-  font-family: "muli-light", sans-serif;
+  font-family: "muli", sans-serif;
   font-size: 2.1rem;
   line-height: 1.857;
   color: #838383;
   margin-bottom: 3.6rem;
+  font-weight: lighter;
 }
 
 @media only screen and (max-width: 768px) {
@@ -190,11 +191,13 @@ b {
 }
 em,
 i {
-  font-family: "muli-italic", sans-serif;
+  font-family: "muli", sans-serif;
+  font-style: italic;
 }
 strong,
 b {
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli", sans-serif;
+  font-weight: bold;
 }
 
 small {
@@ -221,7 +224,8 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "muli-light", sans-serif;
+  font-family: "muli", sans-serif;
+  font-weight: lighter;
   padding: 0;
   font-size: 1.9rem;
   line-height: 1.895;
@@ -245,11 +249,12 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli", sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.05rem;
   color: #838383;
+  font-weight: bold;
 }
 
 var,
@@ -454,7 +459,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "muli-regular", sans-serif;
+  font-family: "muli", sans-serif;
 }
 
 th,
@@ -588,7 +593,7 @@ select {
   border: 0;
   outline: none;
   color: #333333;
-  font-family: "muli-regular", sans-serif;
+  font-family: "muli", sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -681,7 +686,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: inherit;
 }
 
@@ -746,7 +751,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   height: 5.4rem;
   line-height: calc(5.4rem - 0.6rem);
@@ -861,7 +866,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1055,7 +1060,7 @@ input::-moz-focus-inner {
   display: block;
   margin: 0.6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #909090;
 }
 
@@ -1065,7 +1070,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 h1.intro-header {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
   color: #151515;

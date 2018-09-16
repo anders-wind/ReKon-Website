@@ -236,7 +236,7 @@ footer ul a:visited {
 }
 .footer-subscribe #mc-form label {
   color: #ffffff;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
 }

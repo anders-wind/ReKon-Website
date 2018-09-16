@@ -1,6 +1,5 @@
 <template>
    <section id="home" data-parallax="scroll" data-image-src="../assets/images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000">
-
         <div class="overlay"></div>
         <div class="home-content">        
 
@@ -143,7 +142,7 @@ export default class Home extends Vue {
   margin-bottom: 2.4rem;
 }
 .home-content-left h1 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 5.2rem;
   letter-spacing: -0.05rem;
   line-height: 1.269;
@@ -247,7 +246,8 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 }
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 620;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
