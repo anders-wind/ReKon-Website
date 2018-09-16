@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/images/logo.png">
-    <Navigation msg="navigation"></Navigation>
+    <Header msg="navigation"></Header>
     <Home msg="home"></Home>
     <About msg="about"></About>
     <Pricing msg="pricing"></Pricing>
@@ -18,7 +18,7 @@ import About from './components/About.vue';
 import Download from './components/Download.vue';
 import Pricing from './components/Pricing.vue';
 import Footer from './components/Footer.vue';
-import Navigation from './components/Navigation.vue';
+import Header from './components/Header.vue';
 import Testimonials from './components/Testimonials.vue';
 
 @Component({
@@ -28,7 +28,7 @@ import Testimonials from './components/Testimonials.vue';
     Download,
     Pricing,
     Footer,
-    Navigation,
+    Header,
     Testimonials,
   },
 })
