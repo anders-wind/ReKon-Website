@@ -25,7 +25,7 @@
                         </p> 
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-02.jpg" alt="Author image">
                                 <div class="author-info">
                                     Steve Jobs
                                     <span class="position">CEO, Apple.</span>
@@ -39,7 +39,7 @@
                         </p>
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-03.jpg" alt="Author image">
                                 <div class="author-info">
                                     John Doe
                                     <span>CEO, ABC Corp.</span>
@@ -53,7 +53,7 @@
                         </p> 
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-02.jpg" alt="Author image">
                                 <div class="author-info">
                                     Steve Jobs
                                     <span class="position">CEO, Apple.</span>
@@ -67,7 +67,7 @@
                         </p>
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-03.jpg" alt="Author image">
                                 <div class="author-info">
                                     John Doe
                                     <span>CEO, ABC Corp.</span>
@@ -81,7 +81,7 @@
                         </p> 
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-02.jpg" alt="Author image">
                                 <div class="author-info">
                                     Steve Jobs
                                     <span class="position">CEO, Apple.</span>
@@ -95,7 +95,7 @@
                         </p>
 
                         <div class="testimonial-author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image">
+                                <img src="../assets/images/avatars/user-03.jpg" alt="Author image">
                                 <div class="author-info">
                                     John Doe
                                     <span>CEO, ABC Corp.</span>

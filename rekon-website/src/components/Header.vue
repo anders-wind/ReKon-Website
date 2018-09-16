@@ -24,18 +24,13 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-export default class Navigation extends Vue {
+export default class Header extends Vue {
   @Prop() private msg!: string;
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-/* ===================================================================
- *  09. header styles - (_site-layout.scss)
- *
- * ------------------------------------------------------------------- */
-
 #header {
   width: 100%;
   height: 72px;
@@ -72,7 +67,7 @@ export default class Navigation extends Vue {
   border: none;
   width: 97px;
   height: 22px;
-  background: url("/src/assets/images/logo") no-repeat center;
+  background: url("../assets/images/logo.png") no-repeat center;
   background-size: 97px 22px;
   font: 0/0 a;
   text-shadow: none;

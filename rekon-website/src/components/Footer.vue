@@ -103,7 +103,7 @@
 		         </div>
 
 		         <div id="go-top" style="display: block;">
-		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a>
 		         </div>         
 	      	</div>
 
@@ -180,7 +180,7 @@ footer ul a:visited {
   border: none;
   width: 93px;
   height: 21px;
-  background: url("/src/assets/images/logo") no-repeat center;
+  background: url("../assets/images/logo.png") no-repeat center;
   background-size: 93px 21px;
   font: 0/0 a;
   text-shadow: none;
@@ -215,7 +215,7 @@ footer ul a:visited {
   width: 100%;
   height: 5.4rem;
   padding: 1.2rem 100px 1.2rem 60px;
-  background: url(/src/assets/images/email-icon) 20px center no-repeat,
+  background: url(../assets/images/email-icon.png) 20px center no-repeat,
     rgba(0, 0, 0, 0.1);
   background-size: 24px 16px, auto;
   margin-bottom: 1.8rem;

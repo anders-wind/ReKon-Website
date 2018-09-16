@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/images/logo.png">
     <Header msg="navigation"></Header>
     <Home msg="home"></Home>
     <About msg="about"></About>
@@ -42,7 +41,6 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 @import 'src/assets/css/base.scss';
 @import 'src/assets/css/vendor.scss';

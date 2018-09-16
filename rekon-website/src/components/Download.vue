@@ -81,10 +81,10 @@ export default class Download extends Vue {
   background-size: 230px 71px;
 }
 #download .download-badges li a.badge-appstore {
-  background-image: url("/src/assets/images/appstore");
+  background-image: url("../assets/images/appstore.png");
 }
 #download .download-badges li a.badge-googleplay {
-  background-image: url("/src/assets/images/google-play");
+  background-image: url("../assets/images/google-play.png");
 }
 /* ------------------------------------------------------------------- 
  * responsive:

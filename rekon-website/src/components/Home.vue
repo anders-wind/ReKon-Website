@@ -1,5 +1,5 @@
 <template>
-   <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000">
+   <section id="home" data-parallax="scroll" data-image-src="../assets/images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000">
 
         <div class="overlay"></div>
         <div class="home-content">        
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="home-image-right">
-                    <img src="images/iphone-app-470.png" srcset="images/iphone-app-470.png 1x, images/iphone-app-940.png 2x" data-aos="fade-up" class="aos-init aos-animate">
+                    <img src="../assets/images/iphone-app-470.png" srcset="../assets/images/iphone-app-470.png 1x, ../assets/images/iphone-app-940.png 2x" data-aos="fade-up" class="aos-init aos-animate">
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
         <div class="home-scrolldown">
             <a href="#about" class="scroll-icon smoothscroll">
                 <span>Scroll Down</span>
-                <i class="icon-arrow-right" aria-hidden="true"></i>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
             </a>
         </div>
 
