@@ -1,0 +1,18 @@
+version: '3.5'
+services:
+  rekon-website:
+    image: rekon-website
+    container_name: rekon-website
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.backend=rekon-website"
+      - "traefik.frontend.rule=Host:rekon.anderswind.dk"
+    networks:
+      - default
+      - traefik_proxy
+
+networks:
+  traefik_proxy:
+    external: true
