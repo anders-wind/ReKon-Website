@@ -10,7 +10,6 @@ services:
       - "traefik.backend=rekon-website"
       - "traefik.frontend.rule=Host:rekon.anderswind.dk"
     networks:
-      - default
       - traefik_proxy
 
 networks:
