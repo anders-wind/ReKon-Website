@@ -6,7 +6,7 @@ node('docker&&linux') {
         checkout scm
     }
     stage('Website Build') {
-        docker.build('rekon-website.dk')
+        docker.build('awia/rekon-website')
     }
     stage('Deploy') {
         sh 'docker-compose up -d'
