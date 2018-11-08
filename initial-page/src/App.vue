@@ -1,38 +1,38 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-toolbar>
-
-    <v-content>
-      <HelloWorld/>
+    <v-content app>
+      <v-container fluid fill-height>
+        <v-layout align-center justify-center class="back">
+          <v-layout column align-center>
+            <v-container style="width: 70vw">
+              <v-img src="./img/logo.png"></v-img>
+            </v-container>
+            <h1 class="font-weight-light">Fully Automated Account Reconciliation</h1>
+            <h2 class="font-weight-light">
+              For more contact us at
+              <b>awis@itu.dk</b>
+            </h2>
+          </v-layout>
+        </v-layout>
+      </v-container>
     </v-content>
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld'
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  },
-  data () {
-    return {
-      //
-    }
-  }
-}
+@Component({
+  components: {},
+})
+export default class App extends Vue {}
 </script>
+
+<style lang="scss">
+.back {
+  background-image: url('/img/background.png');
+  background-size: 95%;
+  background-position: center;
+}
+</style>
+
