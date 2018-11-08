@@ -1,14 +1,14 @@
 version: '3.5'
 services:
   rekon-website:
-    image: awia/rekon-website
-    container_name: rekon-website
+    image: registry.anderswind.dk/resolved-landingpage:initial
+    container_name: landing-page
     restart: unless-stopped
     labels:
-      - "traefik.enable=true"
-      - "traefik.docker.network=traefik_proxy"
-      - "traefik.backend=rekon-website"
-      - "traefik.frontend.rule=Host:rekon.anderswind.dk"
+      - 'traefik.enable=true'
+      - 'traefik.docker.network=traefik_proxy'
+      - 'traefik.backend=landing-page'
+      - 'traefik.frontend.rule=Host:landing.localhost'
     networks:
       - traefik_proxy
 
