@@ -1,9 +1,5 @@
 # Builder
 FROM node:alpine as builder
-# Global dependencies
-RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh
-
 WORKDIR /app
 
 # Install Dependencies

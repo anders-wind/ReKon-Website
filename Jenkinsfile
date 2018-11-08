@@ -5,10 +5,14 @@ node('docker&&linux') {
     stage('Fetch SCM') {
         checkout scm
     }
+    def large
+    def initial
     stage('Website Build') {
-        docker.build('awia/rekon-website')
+        large = docker.build('registry.anderswind.dk/resolved-landingpage:large', '-f resolved-website/Dockerfile resolved-website')
+        initial = docker.build('registry.anderswind.dk/resolved-landingpage:initial', '-f initial-page/Dockerfile initial-page')
     }
-    stage('Deploy') {
-        sh 'docker-compose up -d'
+    stage('Push images') {
+        large.push()
+        initial.push()
     }
 }
