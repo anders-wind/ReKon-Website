@@ -8,7 +8,7 @@ services:
       - 'traefik.enable=true'
       - 'traefik.docker.network=traefik_proxy'
       - 'traefik.backend=landing-page'
-      - 'traefik.frontend.rule=Host:landing.localhost'
+      - 'traefik.frontend.rule=Host:resolved.site'
     networks:
       - traefik_proxy
 
