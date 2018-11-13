@@ -32,8 +32,8 @@
             <v-container grid-list-xl>
               <v-layout row wrap="">
                 <v-flex xs12 md6>
-                  <h1 class="bigger">Identifying matching transactions between two ledger accounts</h1>
-                  <v-list class="transparent" two-line>
+                  <h1 class="med-big">Identifying matching transactions between two ledger accounts</h1>
+                  <v-list class="transparent" three-line>
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon large>access_time</v-icon>
@@ -146,9 +146,7 @@
                           <v-list-tile-action>
                             <v-icon large>sync_problem</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content
-                            class="big-list-text"
-                          >Integration heavy, due to metadata dependency</v-list-tile-content>
+                          <v-list-tile-content class="big-list-text">Integration heavy</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
@@ -247,9 +245,13 @@ export default class App extends Vue {}
 .bigger {
   font-size: 2.5em;
 }
+.med-big {
+  font-size: 2em;
+}
 .big-list-text {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 300 !important;
+  overflow: initial;
 }
 .medium {
   font-size: 1.5em;
