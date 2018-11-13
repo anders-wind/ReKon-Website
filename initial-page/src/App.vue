@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <v-content app>
-      <section>
-        <v-parallax src="./img/background.png" height="950">
+      <section id="hero">
+        <v-parallax src="./img/background.png" height="950" jumbotron>
           <v-layout column align-center justify-center class="parallax-default">
             <div style="width: 70vw">
               <v-img src="./img/logo.png"></v-img>
@@ -31,20 +31,44 @@
               <v-layout row wrap="">
                 <v-flex xs12 md6>
                   <h1 class="bigger">Identifying matching transactions between two ledger accounts</h1>
-                  <ul class="no-bullet">
-                    <li class="font-weight-light bigger spacing">
-                      <v-icon large class="aligned-icon">access_time</v-icon>&emsp;Time and resource consuming
-                    </li>
-                    <li class="font-weight-light bigger spacing">
-                      <v-icon large class="aligned-icon">report_problem</v-icon>&emsp;High risk of impacting company value
-                    </li>
-                    <li class="font-weight-light bigger spacing">
-                      <v-icon large class="aligned-icon">dashboard</v-icon>&emsp;Challenging task
-                    </li>
-                    <li class="font-weight-light bigger spacing">
-                      <v-icon large class="aligned-icon">highlight_off</v-icon>&emsp;Error prone process
-                    </li>
-                  </ul>
+                  <v-list class="transparent" two-line>
+                    <v-list-tile>
+                      <v-list-tile-action>
+                        <v-icon large>access_time</v-icon>
+                      </v-list-tile-action>
+                      <v-list-tile-content>
+                        <v-list-tile-title
+                          class="font-weight-light bigger"
+                        >Time and resource consuming</v-list-tile-title>
+                      </v-list-tile-content>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-action>
+                        <v-icon large>report_problem</v-icon>
+                      </v-list-tile-action>
+                      <v-list-tile-content>
+                        <v-list-tile-title
+                          class="font-weight-light bigger"
+                        >High risk of impacting company value</v-list-tile-title>
+                      </v-list-tile-content>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-action>
+                        <v-icon large>dashboard</v-icon>
+                      </v-list-tile-action>
+                      <v-list-tile-content>
+                        <v-list-tile-title class="font-weight-light bigger">Challenging task</v-list-tile-title>
+                      </v-list-tile-content>
+                    </v-list-tile>
+                    <v-list-tile>
+                      <v-list-tile-action>
+                        <v-icon large>highlight_off</v-icon>
+                      </v-list-tile-action>
+                      <v-list-tile-content>
+                        <v-list-tile-title class="font-weight-light bigger">Error prone process</v-list-tile-title>
+                      </v-list-tile-content>
+                    </v-list-tile>
+                  </v-list>
                 </v-flex>
                 <v-flex xs12 md6>
                   <v-img src="./img/ReconciliationExample.png" style="width:40vw"></v-img>
@@ -54,7 +78,7 @@
           </v-flex>
         </v-layout>
       </section>
-      <section class="dark-section">
+      <section id="solution" class="dark-section">
         <v-layout column wrap="" class="my-5" align-center>
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
@@ -70,18 +94,40 @@
                       <div class="headline text-xs-center">Resolved</div>
                     </v-card-title>
                     <v-card-text>
-                      <ul class="no-bullet">
-                        <li class="font-weight-light bigger spacing">Supports many-to-many matches</li>
-                        <li
-                          class="font-weight-light bigger spacing"
-                        >Only values necessary for finding matches</li>
-                        <li
-                          class="font-weight-light bigger spacing"
-                        >Quick integration and easy to deploy</li>
-                        <li
-                          class="font-weight-light bigger spacing"
-                        >Independent from any specific ERP solution</li>
-                      </ul>
+                      <v-list class="transparent" two-line>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>playlist_add_check</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content class="big-list-text">
+                            <v-list-tile-title>Supports many-to-many matches</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>exposure</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content class="big-list-text">
+                            <v-list-tile-title>Only values necessary for finding matches</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>sync</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content class="big-list-text">
+                            <v-list-tile-title>Quick integration and easy to deploy</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>link_off</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content class="big-list-text">
+                            <v-list-tile-title>Independent from any specific ERP solution</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                      </v-list>
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -91,16 +137,44 @@
                       <div class="headline text-xs-center">Competition</div>
                     </v-card-title>
                     <v-card-text>
-                      <ul class="no-bullet">
-                        <li
-                          class="font-weight-light bigger spacing"
-                        >Only supports one-to-one matches</li>
-                        <li class="font-weight-light bigger spacing">Highly relied on metadata</li>
-                        <li
-                          class="font-weight-light bigger spacing"
-                        >Integration heavy, due to metadata dependency</li>
-                        <li class="font-weight-light bigger spacing">Bound to a specific ERP vendors</li>
-                      </ul>
+                      <v-list class="transparent" two-line>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>drag_handle</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content>
+                            <v-list-tile-title
+                              class="big-list-text"
+                            >Only supports one-to-one matches</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>format_size</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content>
+                            <v-list-tile-title class="big-list-text">Highly relied on metadata</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>sync_problem</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content>
+                            <v-list-tile-title
+                              class="big-list-text"
+                            >Integration heavy, due to metadata dependency</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                        <v-list-tile>
+                          <v-list-tile-action>
+                            <v-icon large>link</v-icon>
+                          </v-list-tile-action>
+                          <v-list-tile-content>
+                            <v-list-tile-title class="big-list-text">Bound to a specific ERP vendors</v-list-tile-title>
+                          </v-list-tile-content>
+                        </v-list-tile>
+                      </v-list>
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -109,7 +183,7 @@
           </v-flex>
         </v-layout>
       </section>
-      <section>
+      <section id="contact">
         <v-container grid-list-xl>
           <v-layout row wrap="" justify-center class="my-5">
             <v-flex xs12 sm5>
@@ -191,20 +265,15 @@ export default class App extends Vue {}
 .bigger {
   font-size: 2em;
 }
+.big-list-text {
+  font-size: 1.8em;
+  font-weight: 300 !important;
+}
 .medium {
   font-size: 1.5em;
 }
 .small {
   font-size: 1.2em;
-}
-.no-bullet {
-  list-style-type: none;
-}
-.spacing {
-  margin-top: 0.8em;
-}
-.aligned-icon {
-  margin: -0px;
 }
 </style>
 
