@@ -38,37 +38,27 @@
                       <v-list-tile-action>
                         <v-icon large>access_time</v-icon>
                       </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title
-                          class="font-weight-light bigger"
-                        >Time and resource consuming</v-list-tile-title>
-                      </v-list-tile-content>
+                      <v-list-tile-content class="big-list-text">Time and resource consuming</v-list-tile-content>
                     </v-list-tile>
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon large>report_problem</v-icon>
                       </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title
-                          class="font-weight-light bigger"
-                        >High risk of impacting company value</v-list-tile-title>
-                      </v-list-tile-content>
+                      <v-list-tile-content
+                        class="big-list-text"
+                      >High risk of impacting company value</v-list-tile-content>
                     </v-list-tile>
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon large>dashboard</v-icon>
                       </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title class="font-weight-light bigger">Challenging task</v-list-tile-title>
-                      </v-list-tile-content>
+                      <v-list-tile-content class="big-list-text">Challenging task</v-list-tile-content>
                     </v-list-tile>
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon large>highlight_off</v-icon>
                       </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title class="font-weight-light bigger">Error prone process</v-list-tile-title>
-                      </v-list-tile-content>
+                      <v-list-tile-content class="big-list-text">Error prone process</v-list-tile-content>
                     </v-list-tile>
                   </v-list>
                 </v-flex>
@@ -96,38 +86,36 @@
                       <div class="headline text-xs-center">Resolved</div>
                     </v-card-title>
                     <v-card-text>
-                      <v-list class="transparent" two-line>
+                      <v-list class="transparent" three-line>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>playlist_add_check</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content class="big-list-text">
-                            <v-list-tile-title>Supports many-to-many matches</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content class="big-list-text">Supports many-to-many matches</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>exposure</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content class="big-list-text">
-                            <v-list-tile-title>Only values necessary for finding matches</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content
+                            class="big-list-text"
+                          >Only values necessary for finding matches</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>sync</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content class="big-list-text">
-                            <v-list-tile-title>Quick integration and easy to deploy</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content
+                            class="big-list-text"
+                          >Quick integration and easy to deploy</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>link_off</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content class="big-list-text">
-                            <v-list-tile-title>Independent from any specific ERP solution</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content
+                            class="big-list-text"
+                          >Independent from any specific ERP solution</v-list-tile-content>
                         </v-list-tile>
                       </v-list>
                     </v-card-text>
@@ -139,42 +127,34 @@
                       <div class="headline text-xs-center">Competition</div>
                     </v-card-title>
                     <v-card-text>
-                      <v-list class="transparent" two-line>
+                      <v-list class="transparent" three-line>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>drag_handle</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content>
-                            <v-list-tile-title
-                              class="big-list-text"
-                            >Only supports one-to-one matches</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content
+                            class="big-list-text"
+                          >Only supports one-to-one matches</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>format_size</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content>
-                            <v-list-tile-title class="big-list-text">Highly relied on metadata</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content class="big-list-text">Highly relied on metadata</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>sync_problem</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content>
-                            <v-list-tile-title
-                              class="big-list-text"
-                            >Integration heavy, due to metadata dependency</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content
+                            class="big-list-text"
+                          >Integration heavy, due to metadata dependency</v-list-tile-content>
                         </v-list-tile>
                         <v-list-tile>
                           <v-list-tile-action>
                             <v-icon large>link</v-icon>
                           </v-list-tile-action>
-                          <v-list-tile-content>
-                            <v-list-tile-title class="big-list-text">Bound to a specific ERP vendors</v-list-tile-title>
-                          </v-list-tile-content>
+                          <v-list-tile-content class="big-list-text">Bound to a specific ERP vendors</v-list-tile-content>
                         </v-list-tile>
                       </v-list>
                     </v-card-text>
@@ -265,7 +245,7 @@ export default class App extends Vue {}
   color: whitesmoke;
 }
 .bigger {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .big-list-text {
   font-size: 1.8em;
