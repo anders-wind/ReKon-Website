@@ -7,8 +7,10 @@
             <div style="width: 70vw">
               <v-img src="./img/logo.png"></v-img>
             </div>
-            <h1 class="font-weight-light bigger">Fully Automated Account Reconciliation</h1>
-            <h2 class="font-weight-light">
+            <h1
+              class="text-xs-center font-weight-light bigger"
+            >Fully Automated Account Reconciliation</h1>
+            <h2 class="text-xs-center font-weight-light">
               For more contact us at
               <b>awis@itu.dk</b>
             </h2>
@@ -70,8 +72,8 @@
                     </v-list-tile>
                   </v-list>
                 </v-flex>
-                <v-flex xs12 md6>
-                  <v-img src="./img/ReconciliationExample.png" style="width:40vw"></v-img>
+                <v-flex xs12 md6 sm12 style="min-width:50vh">
+                  <v-img src="./img/ReconciliationExample.png"></v-img>
                 </v-flex>
               </v-layout>
             </v-container>
