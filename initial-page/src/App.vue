@@ -12,7 +12,7 @@
             >Fully Automated Account Reconciliation</h1>
             <h2 class="text-xs-center font-weight-light">
               For more contact us at
-              <b>awis@itu.dk</b>
+              <b>anders-wind@outlook.com</b>
             </h2>
             <v-btn
               flat
