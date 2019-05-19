@@ -22,7 +22,7 @@
         </v-parallax>
       </section>
       <section id="problem">
-        <v-layout column wrap="" class="my-5" align-center justify-start>
+        <v-layout column wrap class="my-5" align-center justify-start>
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
               <h2 class="font-weight-light bigger">The Problem</h2>
@@ -30,7 +30,7 @@
           </v-flex>
           <v-flex xs12>
             <v-container grid-list-xl>
-              <v-layout row wrap="">
+              <v-layout row wrap>
                 <v-flex xs12 md6>
                   <h1 class="med-big">Identifying matching transactions between two ledger accounts</h1>
                   <v-list class="transparent" three-line>
@@ -71,7 +71,7 @@
         </v-layout>
       </section>
       <section id="solution" class="dark-section">
-        <v-layout column wrap="" class="my-5" align-center>
+        <v-layout column wrap class="my-5" align-center>
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
               <h2 class="font-weight-light bigger">Our Solution</h2>
@@ -79,7 +79,7 @@
           </v-flex>
           <v-flex xs12>
             <v-container grid-list-xl>
-              <v-layout row wrap="" align-start>
+              <v-layout row wrap align-start>
                 <v-flex xs12 md6>
                   <v-card dark class="elevation-0 transparent">
                     <v-card-title primary-title class="layout justify-center">
@@ -165,7 +165,7 @@
       </section>
       <section id="contact">
         <v-container grid-list-xl>
-          <v-layout row wrap="" justify-center class="my-5">
+          <v-layout row wrap justify-center class="my-5">
             <v-flex xs12 sm5>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
@@ -212,7 +212,7 @@
                       <v-icon class="blue--text text--lighten-2">email</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>awis@itu.dk</v-list-tile-title>
+                      <v-list-tile-title>anders-wind@outlook.com</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                 </v-list>
@@ -226,10 +226,10 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component({
-  components: {},
+  components: {}
 })
 export default class App extends Vue {}
 </script>
